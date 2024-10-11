@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 // Configuración del cliente MQTT
-const mqttClient = mqtt.connect('mqtt://157.230.230.162'); // Reemplaza con la dirección de tu servidor Mosquitto
+const mqttClient = mqtt.connect('mqtt://142.93.14.140'); // Reemplaza con la dirección de tu servidor Mosquitto
 
 const topics = ['sensors/temperature', 'sensors/humidity', 'sensors/distance', 'sensors/flame', 'sensors/soilMoisture'];
 
